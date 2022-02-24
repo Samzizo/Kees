@@ -1,7 +1,7 @@
 # kees site
-[Kees](https://github.com/Samzizo/Kees/blob/main/image/logo.png)
+![Kees](https://github.com/Samzizo/Kees/blob/main/image/logo.png)
 
-## Coded and Designed by Samiha Amroune - Red code :Blush: 
+## Coded and Designed by Samiha Amroune - Red code 😊 
 
 This prototype project was designed to participate in the Programming Communities Challenge competition in [the One Million Jordanian Coders](https://jordaniancoders.com/) Initiative
 
