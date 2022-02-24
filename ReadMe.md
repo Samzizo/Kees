@@ -1,6 +1,7 @@
 # kees site
-[Kees](image/logo.png)
-## Coded and Designed by Samiha Amroune - Red code : Blush: 
+[Kees](https://github.com/Samzizo/Kees/blob/main/image/logo.png)
+
+## Coded and Designed by Samiha Amroune - Red code :Blush: 
 
 This prototype project was designed to participate in the Programming Communities Challenge competition in [the One Million Jordanian Coders](https://jordaniancoders.com/) Initiative
 
@@ -24,6 +25,6 @@ The web has six HTML pages:
 
 In addition to files:
 
-1- Css: Contains the page style code.
-2- JavaScript: Contains some functions to run some features on the page.
+1- Css: Contains the page style code. <br>
+2- JavaScript: Contains some functions to run some features on the page.<br>
 3- Image: It contains all the pictures attached inside the site.
