@@ -1,0 +1,327 @@
+@import url(nav.css);
+@import url(grid.css);
+@import url(footer.css);
+
+body {
+    background: #fff;
+    font-family: 'Lateef', 'cursive';
+}
+
+#mg{
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+}
+
+.mg{
+    grid-area: mg;
+    height: 300px;
+    width: 100%!important;
+    float: left;
+    margin-left: 0;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border: 2px dashed #ce9175;
+    box-shadow: 5px 5px 10px #99cce0!important;
+    border-radius: 10px 10px 100px 100px;
+}
+
+.top-right p {
+    position: absolute;
+    top: 16%!important;
+    right: 16px;
+    padding: 15px;
+    margin: 30px;
+    color: #2c2b2b;
+    line-height: 150%;
+    background-color: transparent;
+    font-size: 26px;
+    font-family: 'Lateef', serif;
+}
+
+.do{
+    margin-right: 50px;
+    font-size: 26px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.photoBox {
+    width: 450px;
+    height: 350px;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    border: 2px dashed #ce9175;
+    box-shadow: 5px 5px 10px #99cce0;
+    color: #000;
+    border-radius: 5px 5px 40px 40px;
+    background: #fbfcfd;
+}
+
+#one:hover {
+    background-color: #e5c1c5;
+    cursor: pointer;
+}
+
+#two:hover {
+    background-color: #f7f090;
+    cursor: pointer;
+}
+
+#three:hover {
+    background-color: #8e94e9;
+    cursor: pointer;
+}
+
+#four:hover {
+    background-color: #c9f5c5;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    padding: 5px;
+    border-radius: 5px 5px 40px 40px;
+}
+
+.content {
+    grid-area:main;
+    justify-content: center;
+    border: 2px dashed #ce9175;
+    box-shadow: 5px 5px 10px #99cce0;
+    padding: 5px;
+}
+
+.sidebar {
+    grid-area:sd;
+    border: 2px dashed #ce9175;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px #99cce0;
+    border-radius: 5px 5px 40px 40px;
+}
+
+.sideb h1 {
+    font-size: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.search {
+    padding-top: 10px;
+}
+
+.search i {
+    padding: 5px;
+}
+
+h1 i {
+    padding: 5px;
+}
+
+ol li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 15px;
+    width: 200px;
+    border-radius: 5px 5px 40px 40px;
+}
+
+ol li a{
+    font-size: 20px;
+}
+
+ol li:hover {
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.card-info {
+    font-size: 0.8em;
+    margin-bottom: 0.3em;
+}
+
+.card-text {
+    font-family: 'Poppins';
+    font-weight: 200;
+    color: #000;
+    margin-bottom: 0.8em;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: 'El Messiri', serif;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0.5em;
+    width: 90%;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.card-footer > a {
+    color: #fff;
+	text-decoration: none;
+    padding: 10px;
+    background-color: #ce9175;
+    border: 1px dashed #fff;
+}
+
+.read {
+    padding: 10px!important;
+    font-size: 20px;
+    border-radius: 5px 5px 40px 40px;
+}
+
+.card-image {
+    width: 200px;
+    height: 100px;
+    border-radius: 5px ;
+    border: 1px  dashed#ce9175;
+}
+
+i:hover {
+    cursor: pointer;
+    font-size: 26px!important;
+}
+
+span a:hover {
+    background-color: #07183d;
+}
+
+button {
+    background-color:#ce9175;
+    color: #fff;
+    border: 1px dashed #fff;
+    border-radius: 5px 5px 40px 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.fa-facebook-f:hover {
+    color: #4267B2!important;
+}
+
+.fa-twitter:hover {
+    color: #00aced!important;
+}
+
+.fa-youtube:hover {
+    color: red!important;
+}
+
+.fa-google-plus-g:hover {
+    color: #db4a39;
+}
+
+.fa-linkedin-in:hover {
+    color: #2867B2;
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+/* side bar col*/
+
+.collapsible {
+    border-radius: 5px 5px 40px 40px;
+    background-color: #53bed6;
+    border: 1px dashed #fff!important;
+    box-shadow: 5px 5px 10px #99cce0;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 95%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 16px;
+}
+
+  /* Add a background color to the button if it is clicked on */
+.active, .collapsible:hover {
+    background-color: #07183d;
+}
+
+  /* Style the collapsible content. Note: hidden by default */
+.cont {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ccc;
+    color: #000;
+    border-radius: 5px;
+}
+
+button.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin-left: 5px;
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+    .photoBox {
+        width: 190px;
+        height: 350px;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        border: 2px solid #ce9175;
+        box-shadow: 5px 5px 10px #99cce0;
+        border-radius: 5px 5px 40px 40px;
+        color: #000;
+    }
+
+    .card-title {
+        font-size: 12px;
+        font-family: 'Lateef', cursive
+    }
+
+    .read {
+        font-size: 10px;
+    }
+
+    .comment {
+        font-size: 10px;
+    }
+
+    .sideb h1 {
+        font-size: 9px;
+        font-family: 'Lateef', 'cursive'
+    }
+
+    ol li {
+        padding: 3;
+        margin: 10px;
+        width: 65px;
+        border-radius: 5px 5px 40px 40px;
+    }
+
+    ol li a{
+        font-size: 10px;
+    }
+
+    .find {
+        width: 55px;
+    }
+}
+
+@media(max-width: 600px){
+    .top-right p {
+        font-size: 18px;
+    }
+    h1{
+        font-size: 18px;
+    }
+}

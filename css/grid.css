@@ -1,0 +1,79 @@
+@media(max-width: 320px){
+    .container {
+        /* Step 1: Set display to grid */
+        display: grid;
+        /* Step 2: setup rows amd columns */
+        grid-template-columns: 300px;
+        grid-template-rows: 100px 100px 400px 300px;
+        grid-gap: 40px;
+        grid-template-areas:
+        "hd"
+        "mg"
+        "sd"
+        "main"
+        "ft";
+    }
+
+    .nestedGrid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .photoBox {
+        width: 200px;
+        height: 150px;
+        padding: 5px;
+        margin: 20px;
+        text-align: center;
+        border: 2px solid #998478;
+        box-shadow: 0 35px 50px #f89e9e;
+        border-radius: 10px;
+        color: #000;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+    .container {
+        /* Step 1: Set display to grid */
+        display: grid;
+        /* Step 2: setup rows amd columns */
+        grid-template-columns: 150px 250px 100px;
+        grid-template-rows: 100px 350px 800px 100px;
+        grid-gap: 10px;
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "mg mg mg mg mg mg mg mg"
+        "sd main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+    }
+
+    .nestedGrid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+}
+
+
+@media(min-width:901px) {
+    .container {
+        /* Step 1: Set display to grid */
+        display: grid;
+        /* Step 2: setup rows amd columns */
+        grid-template-columns: 300px 550px 100px;
+        grid-template-rows: 150px 350px 800px 100px;
+        grid-gap: 10px;
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "mg mg mg mg mg mg mg mg"
+        "sd main main main main main main main"
+        "ft ft ft ft ft ft ft ft";
+    }
+
+    .nestedGrid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+}

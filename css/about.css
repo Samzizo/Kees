@@ -1,0 +1,115 @@
+@import url(nav.css);
+@import url(grid.css);
+@import url(Home.css);
+@import url(footer.css);
+
+
+
+h1{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+ol li {
+    padding: 25px;
+    margin: 15px;
+    width: 200px;
+    font-size: 25px;
+    background: #71c6da;
+    box-shadow: 0 35px 50px #99cce0;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px dashed #fff;
+
+}
+
+ol li:hover {
+    background: #07183d;
+}
+
+.share{
+    font-size: 30px;
+}
+
+
+.about{
+    display: block;
+    width: 95%;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+.par1 {
+    width: 85%;
+    padding: 15px;
+    border: 1px dashed #99cce0;
+    border-radius: 5px 5px 40px 40px;
+    font-size: 25px;
+    font-family: 'Lateef', serif;
+    box-shadow: 5px 5px 10px #99cce0;
+}
+
+
+
+@media(min-width: 600px) and (max-width: 900px){
+    ol li {
+        padding: 15px;
+        margin: 15px;
+        width: 80px;
+        background: #71c6da;
+        box-shadow: 5px 5px 10px #99cce0;
+        border-radius: 5px 5px 40px 40px;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .share li {
+        margin: 5px;
+        width: 50px;
+        height: 20px;
+        justify-content: center;
+        cursor: context-menu;
+        font-size: 14px;
+
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .side h1 {
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 901px){
+    p {
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    ol li {
+        padding: 10px;
+        margin: 12px;
+        width: 100px;
+        list-style-type: none;
+        background: #71c6da;
+        box-shadow: 0 35px 50px #99cce0;
+        justify-content: center;
+        border-radius: 5px 5px 40px 40px;
+        color: #fff;
+        font-size: 18px !important;
+    }
+    
+    i {
+        margin: 10px;
+    }
+}
+
+

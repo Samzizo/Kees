@@ -1,0 +1,83 @@
+@import url(nav.css);
+@import url(grid.css);
+@import url(Home.css);
+@import url(footer.css);
+
+.nestedGrid3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.don1 {
+    border: 1px dashed #71c6da ;
+    box-shadow: 5px 5px 10px #99cce0!important;
+    border-radius: 10px 10px 100px 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.don1:hover {
+    cursor: pointer;
+}
+
+img {
+    width: 70%;
+    height: 200px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.don1 .tooltiptext {
+    visibility: hidden;
+    width: 50px;
+    margin-right: 70px;
+    background-color: #c3e4f1;
+    color: #000;
+    font-size: 24px;
+    font-family: 'Reem Kufi', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: -1;
+}
+
+.don1:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media(max-width: 600px){
+    .nestedGrid3 {
+        display: grid;
+        grid-template-columns: 34% 34% 34%;
+        grid-template-rows: 50% 50%;
+        padding: 15px;
+        margin: 5px;
+    }
+    img {
+        width: 70%;
+        height: 100px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .don1 .tooltiptext {
+        visibility: hidden;
+        width: 50px;
+        margin-right: 20px;
+        background-color: #c3e4f1;
+        color: #000;
+        text-align: center;
+        border-radius: 10px 10px 40px 40px;
+        padding: 0;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: -1;
+        font-size: 12px;
+        font-family: 'Reem Kufi', sans-serif;
+    }
+}

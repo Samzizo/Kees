@@ -1,0 +1,67 @@
+@import url(Home.css);
+
+.avatar {
+    width: 50px;
+    border-radius: 100px 50px ;
+    padding: 0;
+    border: 1px dashed #000!important;
+    
+}
+.av1 {
+    float: right !important;
+    border: 1px dashed #71c6da;
+    box-shadow: 5px 5px 10px #99cce0!important;
+    border-radius: 100px 5px ;
+    width: 95%!important;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+}
+
+.b1 {
+    margin-right: 50%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #99cce0!important;
+}
+.b1:hover{
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 5px 5px #8bc7df;
+}
+
+.b1 i {
+    margin: 3px;
+}
+h2 {
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.nestedGrid2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+.status{
+    margin: 0;
+    padding: 15px;
+    font-size: 15pt;
+}
+hr {
+    border-top: 1px dotted #000;
+    
+}
+
+.name {
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 16pt;
+}
+.min {
+    float: left;
+    margin-left: 55px;
+}

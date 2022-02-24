@@ -1,0 +1,70 @@
+.footer {
+    grid-area:ft;
+    padding: 20px!important;
+    text-align: center!important;
+    position: relative!important;
+    margin-bottom: 0!important;
+    justify-content: center!important;
+    background: #71c6da!important;
+    box-shadow: 5px 5px 10px #99cce0!important;
+    border: 1px dashed #fff;
+    color: #fff!important;
+    font-family: 'Reem Kufi', sans-serif !important;
+}
+
+.fake a {
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px;
+    color: #fff;
+    width: 100%;
+}
+
+.fake a i {
+    padding: 10px;
+}
+
+.fake a:hover {
+    cursor: pointer;
+    background-color: #07183d;
+    border: 1px dashed #fff;
+    border-radius: 10px 10px 100px 100px;
+}
+
+.copyright {
+    width: 100%!important;
+    margin-bottom: 0px!important;
+    position: absolute;
+    margin-top: 85px;
+    color: #fff;
+    left: 0;
+    background-color: #71c6da;
+    border-radius: 15px 15px 90px 90px;
+    border: 1px dashed #fff;
+
+}
+
+@media(min-width: 901px){
+    .fake a {
+        font-size: 25px;
+        padding: 15px;
+        margin: 30px;
+    }
+}
+
+@media(max-width: 600px){
+    .fake a {
+        font-size: 18px;
+        padding: 12px;
+        margin: 10px;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 901px){
+    .fake a {
+        font-size: 18px;
+        padding: 12px;
+        margin: 0;
+    }
+}

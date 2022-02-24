@@ -1,0 +1,179 @@
+
+@import url(nav.css);
+@import url(grid.css);
+@import url(Home.css);
+@import url(footer.css);
+
+
+.newsTitle {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+p {
+    color: #000;
+    font-weight: 500;
+    font-size: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+.titleside {
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+ol li {
+    padding: 10px!important;
+    margin: 15px;
+    width: 100px;
+    height: 50px;
+    border: 1px dashed #fff;
+    font-size: 20px;
+    list-style-type: none;
+    box-shadow: 0 30px 45px #99cce0;
+    background: #71c6da;
+    color: #fff;
+}
+
+i {
+    margin: 15px;
+    font-size: 20px;
+}
+
+
+.art1:hover {
+    cursor: text;
+    background-color: #e5c1c5;
+}
+.art2:hover {
+    cursor: text;
+    background-color: #f7f090;
+}
+.art3:hover {
+    cursor: text;
+    background-color: #8e94e9;
+}
+.art4:hover {
+    cursor: text;
+    background-color: #c9f5c5;
+}
+@media(min-width: 600px) and (max-width: 900px){
+    .newstitle {
+        font-size: 15px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    ol li {
+        padding: 5px;
+        margin: 15px;
+        width: 90px;
+        height: 30px;
+        font-size: 14px;
+        background: #71c6da;
+        color: #fff;
+    }
+
+    ol {
+        padding: 0;
+    }
+
+    .titleside {
+        font-size: 12px;
+    }
+
+    i{
+        padding: 0px;
+        margin: 7px;
+    }
+    article {
+        margin: 15px;
+        padding: 5px;
+        height: auto;
+        font-size: 15px;
+        border: 1px dashed #99cce0;
+        border-radius: 5px 5px 40px 40px;
+    }
+}
+
+ol li:hover{
+    background-color: #07183d;
+}
+.sea {
+    background-color: #ce9175;
+    color: #fff;
+    border: 1px dashed #fff;
+    border-radius: 5px 5px 40px 40px;
+    margin: 5px;
+    padding: 5px;
+}
+.sear i {
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+}
+
+@media(min-width: 901px){
+    .newstitle {
+        font-size: 25px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    ol li {
+        padding: 5px;
+        margin: 15px;
+        width: 50px;
+        font-size: 16px;
+        background: #71c6da;
+        border-radius: 100px 5px;
+        color: #fff;
+    }
+
+    .content .virus {
+        justify-content: center;
+        height: 300px;
+        text-align: center;
+        border-radius: 100px 5px;
+        border: 1px dashed #00111b;
+        margin-right: 250px;
+    }
+    article {
+        margin: 15px;
+        padding: 5px;
+        height: auto;
+        font-size: 25px;
+        border: 1px dashed #99cce0;
+        border-radius: 5px 5px 40px 40px;
+    }
+}
+
+@media(max-width: 600px){
+    ol li{
+        width: 40px;
+        font-size: 18px;
+        margin: 5px;
+        padding: 5px!important;
+    }
+    i{
+        margin: 2px;
+    }
+    article {
+        margin: 15px;
+        padding: 5px;
+        height: auto;
+        font-size: 15px;
+        border: 1px dashed #99cce0;
+        border-radius: 5px 5px 40px 40px;
+    }
+    article h1{
+        font-size: 12px;
+    }
+}
+
